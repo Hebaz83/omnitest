@@ -1,0 +1,11 @@
+version = 1
+
+test_patterns = ["**/*.test.js", "**/*.spec.js"]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+[[analyzers]]
+name = "prettier"
+enabled = true
